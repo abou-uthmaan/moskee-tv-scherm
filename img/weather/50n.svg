@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Laag_1" focusable="false" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" viewBox="0 0 640 512" style="enable-background:new 0 0 640 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#B3B3B3;}
+</style>
+<g id="XMLID_1_">
+	<g>
+		<path class="st0" d="M640,384v16c0,8.8-7.2,16-16,16H80c-8.8,0-16-7.2-16-16v-16c0-8.8,7.2-16,16-16h544
+			C632.8,368,640,375.2,640,384z"/>
+		<path class="st0" d="M528,64c61.9,0,112,50.1,112,112s-50.1,112-112,112h-60.1c-22.6,19.7-51.6,32-83.9,32s-61.4-12.3-83.9-32H144
+			C64.5,288,0,223.5,0,144S64.5,0,144,0c41,0,77.8,17.3,104,44.8C274.2,17.3,311,0,352,0c54.8,0,102,31,126.3,76.1
+			C493.3,68.6,510,64,528,64z"/>
+		<path class="st0" d="M576,480v16c0,8.8-7.2,16-16,16H224c-8.8,0-16-7.2-16-16v-16c0-8.8,7.2-16,16-16h336
+			C568.8,464,576,471.2,576,480z"/>
+		<path class="st0" d="M160,480v16c0,8.8-7.2,16-16,16H16c-8.8,0-16-7.2-16-16v-16c0-8.8,7.2-16,16-16h128
+			C152.8,464,160,471.2,160,480z"/>
+	</g>
+	<g>
+	</g>
+</g>
+</svg>

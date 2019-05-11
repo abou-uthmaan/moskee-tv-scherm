@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo:400,700&subset=arabic');
+@import url('https://fonts.googleapis.com/css?family=Gugi');
+
+
+html{
+	height:100%;
+	margin: 0;
+        overflow:hidden;
+}
+
+body { 
+	background: url(../img/achtergrond.jpg) no-repeat top left fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color:white;
+	height:100%;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	--webkit-box-shadow: inset 0px 0px 300px 200px rgba(0,0,0,0.6);
+	-moz-box-shadow: inset 0px 0px 300px 200px rgba(0,0,0,0.6);
+	box-shadow: inset 0px 0px 300px 200px rgba(0,0,0,0.6);
+
+}
+
+.mw-logo { 
+    background: url(../img/logo-wit.png) no-repeat;
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    width: 150px;
+    height: 100%;
+    background-size: contain;
+    opacity: 0.3;
+}
+
+.ishaa{
+	 background: url(../img/icon-isha.png) no-repeat;
+	 background-size: contain;
+}
+
+.maghreb{
+	 background: url(../img/icon-maghreb.png) no-repeat;
+	 background-size: contain;
+}
+
+.asr{
+	 background: url(../img/icon-asr.png) no-repeat;
+	 background-size: contain;
+}
+.dhoehr{
+	 background: url(../img/icon-dhoehr.png) no-repeat;
+	 background-size: contain;
+}
+.shoeroeq{
+	 background: url(../img/icon-shoeroeq.png) no-repeat;
+	 background-size: contain;
+}
+.fadjr{
+	 background: url(../img/icon-fadjr.png) no-repeat;
+	 background-size: contain;
+}
+
+
+.top{
+	height:10%;
+}
+.hfd_balk{
+	height:50%;
+}
+
+.gb_balk{
+	height:30%;
+        padding-left:20px;
+        padding-right:20px;
+         background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 30%, rgba(0,0,0,0.7) 100%); background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 30%,rgba(0,0,0,0.7) 100%); background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 30%,rgba(0,0,0,0.7) 100%);
+}
+
+.ft_balk{
+	height:10%;
+	background-color:white;
+}
+
+.col-md-6{
+	height: 100%;
+	text-align: center;
+}
+
+.col-md-2{
+	height: 100%;
+	text-align: center;
+}
+
+.border{
+	border: 0px solid black;
+}
+
+.vak{
+	display:table;
+	width:100%;
+	height:100%;
+}
+
+.centeralign{
+	display: table-cell;
+    vertical-align: middle;
+}
+	
+.adhan_gebed{
+	font-weight:400;
+	font-size: 5vh;
+	color:#570A14;
+	background-color:white;
+	border-radius:15px;
+	padding:10px;
+	padding-left:25px;
+	padding-right:25px;
+	-moz-box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.3)
+}
+
+.temperatuur{
+	font-weight:700;
+	font-size: 8vh;
+	color: #FFFFFF;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a90329+0,8f0222+44,6d0019+100;Brown+Red+3D */
+	background: #a90329; /* Old browsers */
+	background: -moz-linear-gradient(left, #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	border-radius:10px;
+	padding:2vh;
+	-moz-box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.3)
+}
+
+.aftellen_adhan{
+	font-weight: 300;
+	font-size: 12vh;
+        text-shadow: 2px 2px 4px #000000;
+}
+
+.clock{
+	font-family: 'Gugi', cursive;
+        -webkit-transform: skew(20deg)!important;
+        -moz-transform: skew(20deg)!important;
+        -o-transform: skew(20deg)!important;
+}
+
+.aftellen_desc{
+	font-weight: 300;
+	font-size: 3vh;
+}
+
+.datum_voluit{
+	font-weight: 300;
+	font-size: 5vh;
+        text-shadow: 2px 2px 4px #000000;
+}
+
+.ar{
+	font-family: 'Cairo', sans-serif;
+}
+
+.gebedsnaam{
+	font-weight: 800;
+	font-size: 2.2vh;
+	font-family: 'Cairo', sans-serif;
+    text-shadow: 2px 2px 4px #000000;
+    text-transform: uppercase;
+}
+
+.gebedstijd {
+    text-align: right;
+    font-weight: 400;
+    font-size: 6vh;
+    padding: 0 0 0 75px;
+   /*  text-shadow: 2px 2px 4px #000000; */
+    -webkit-filter: drop-shadow(0px 2px 2px #000);
+    filter: drop-shadow(0px 2px 2px #000);
+}
+
+.active{
+	background: #a90329; /* Old browsers */
+	background: -moz-linear-gradient(left, #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	border-radius: 25px;
+	-moz-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+	padding:2vh; 
+}
+
+.old{
+	background: none; 
+	border-radius: 25px;
+	/*-moz-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);*/
+	padding:2vh; 
+	opacity: 0.6;
+}
+
+.coming{
+        background: none; 
+	color: white;
+	/*background: white; /* Old browsers */
+	border-radius: 25px;
+	/*-moz-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);*/
+	padding:2vh; 
+}
+
+.flash{
+    background: #a90329; /* Old browsers */
+    /*background: -moz-linear-gradient(left, #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6-15 */
+    /*background: -webkit-linear-gradient(left, #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10-25,Safari5.1-6 */
+    /*background: linear-gradient(to right, #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    border-radius: 25px;
+    -moz-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    padding:2vh; 
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    0% {
+        background-color: #570A14;
+      }
+      45% {
+        background-color: white;
+      }
+      100% {
+        background-color: #570A14;
+      }
+}
+
+#time_seperator{
+    animation: blinker_time_seperator 1s linear infinite;
+}
+
+@keyframes blinker_time_seperator {
+  50% {
+    opacity: 1;
+  }
+  55%{
+      opacity: 0;
+  }
+  95%{
+      opacity: 0;
+  }
+}
+
+.news-title{
+	z-index: 10;
+	color: white;
+	height: 100%;
+	font-size: 7vh;
+	padding-left: 40px;
+	background: #990225; /* Old browsers */
+	background: -moz-linear-gradient(right, #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(right, #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to left, #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.logo-div{
+	background-color: white;
+	text-align: right;
+	background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 1) 100%);
+	/* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(20%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(255, 255, 255, 0)));
+	/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 1) 100%);
+	/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 1) 100%);
+	/* Opera 11.10+ */
+	background: -ms-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 1) 100%);
+	/* IE10+ */
+	background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 1) 100%);
+	/* W3C */
+}
+
+.logo-div img{
+	padding: 15px !important;
+}
+
+.nieuws-bericht{
+    width:100%;
+    height: 100%;
+    overflow:hidden;
+}
+
+.nieuws-bericht span {
+	white-space: pre;
+	font-size: 7vh;
+	color: #570A14;
+	position: absolute;
+	margin: 0;
+	text-align: left;
+	/* Starting position */
+	
+	/* Apply animation to this element */	
+	-moz-animation: nieuws-bericht 30s linear infinite;
+	-webkit-animation: nieuws-bericht 30s linear infinite;
+	animation: nieuws-bericht 30s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes nieuws-bericht {
+    0%   { -moz-transform: translateX(30%); }
+    100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes nieuws-bericht {
+    0%   { -webkit-transform: translateX(30%); }
+    100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes nieuws-bericht {
+    0%   { 
+            -moz-transform: translateX(30%); /* Firefox bug fix */
+            -webkit-transform: translateX(30%); /* Firefox bug fix */
+            transform: translateX(30%); 		
+    }
+    100% { 
+            -moz-transform: translateX(-100%); /* Firefox bug fix */
+            -webkit-transform: translateX(-100%); /* Firefox bug fix */
+            transform: translateX(-100%); 
+    }
+}
